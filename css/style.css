@@ -29,7 +29,7 @@ nav {
   padding: 20px 30px;
   text-decoration: none;
   color: white;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: 10px;
   box-shadow: 0px 0px 0 #6c9e41;
   transition: 0.5s;
@@ -38,7 +38,7 @@ nav {
   padding: 20px 17px;
   text-decoration: none;
   color: white;
-  font-weight: 600;
+  font-weight: 700;
   border-radius: 15px;
   box-shadow: 2px 5px 0 #34a8c6;
 	transition-delay: 2s all ease;
