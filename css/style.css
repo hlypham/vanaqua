@@ -1,0 +1,259 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  border: none;
+  z-index: 9999998;
+}
+.logo {
+  padding-top: 10px
+}
+.menu {
+  padding-top: 25px
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex
+}
+.menu ul li a {
+  padding: 20px 30px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0 #6c9e41;
+  transition: 0.5s;
+}
+.menu ul li a:hover {
+  padding: 20px 17px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 15px;
+  box-shadow: 2px 5px 0 #34a8c6;
+	transition-delay: 2s all ease;
+}
+.top-bar {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+.banner {
+  width: 100%;
+  min-height: 400px;
+  position: relative;
+  left: 0;
+  top: 0
+}
+.caption h1 {
+  position: absolute;
+  font-size: 100px;
+  color: white;
+  align-content: center;
+  left: 20%;
+  top: 40%;
+  transition: 0.5s;
+}
+.caption h1:hover {
+  -webkit-text-stroke: 1px #ffffff;
+  color: transparent;
+}
+.caption h1 {
+  position: absolute;
+  font-size: 100px;
+  font-weight: 600;
+  color: white;
+  align-content: center;
+  left: 20%;
+  top: 40%;
+  transition: 0.5s;
+}
+.caption a {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  left: 47%;
+  top: 60%;
+  text-decoration: none;
+}
+.caption:hover a {
+  background-color: white;
+  color: #001F2E;
+}
+/*
+*xong phan video
+*/
+#video {
+  background-color: #00111B
+}
+.menu-space-b {
+  background-color: #00111B
+}
+.menu-space-o {
+  background-color: #f47921
+}
+#animal {
+  background-color: #00111B
+}
+
+.vien-trang {
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 12px 22px
+}
+/**************** ticket ***************/
+/**************** ticket ***************/
+#ticket {
+  background-color: #f47921;
+	width:100%; min-height: 850px; background: url("../images/aqua2-unsplash.jpg");
+	background-repeat: no-repeat; background-size: cover;background-position: center top
+}
+.box{
+	width: 100%; height:505px;
+	background-color: #00111B;
+	color: #fff;
+	padding: 50px;border: medium #FFFFFF;border-radius: 50px;
+}
+.box:hover{
+	background-color:#00111B;
+	transition: all 1s;
+	transform: scale(1.1);
+	border: 5px solid #FFFFFF;
+}
+
+
+/**************** contact us ***************/
+/**************** contact us ***************/
+#contact-us {
+  background-color: #f47921;
+}
+.text-trang {
+  color: white
+}
+
+.col-7 a {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.small-container {
+  padding-left: 300px
+}
+
+
+
+/**************** footer ***************/
+/**************** footer ***************/
+footer {
+  width: 100%;
+  height: 250px;
+  background-color: #00111B;
+  color: white;
+  line-height: 50px;
+	
+}
+.form-control {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+	border:none;
+	border-radius: 7px;
+}
+.logo2 {
+  padding: 20px 40px;
+}
+.col-3 a {
+  text-decoration: none;
+  color: white;
+  text-align: left
+}
+.col-3 a:hover {
+  color: #34A8C6
+}
+.col-2 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.col-2 ul li a {
+  padding: 20px;
+  text-decoration: none;
+}
+.col-2 a {
+  text-decoration: none;
+  color: white;
+  text-align: left
+}
+.col-2 a:hover {
+  color: #34A8C6
+}
+/**************** btn trang ***************/
+.col-5 a {
+  font-size: 15px;
+  color: white;
+  left: 47%;
+  top: 60%;
+  text-decoration: none;
+}
+.col-5:hover a {
+  background-color: white;
+  color: #001F2E;
+}
+.col-7 a {
+  font-size: 15px;
+  color: white;
+  left: 47%;
+  top: 60%;
+  text-decoration: none;
+}
+.col-7:hover a {
+  background-color: white;
+  color: #001F2E;
+}
+/****************qua phan carousel***************/
+#slider .owl-dots {
+  position: absolute;
+  bottom: 0px;
+  left: 40%;
+}
+#slider .owl-dots .owl-dot span {
+  width: 7px;
+  height: 7px;
+}
+#slider .owl-nav {
+  position: absolute;
+  left: 0px;
+  top: 40%;
+  width: 100%;
+}
+#slider .owl-nav [class*='owl-'] {
+  font-size: 40px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+#slider .owl-nav .owl-next {
+  position: absolute;
+  right: 5%;
+}
+#slider .owl-nav .owl-prev {
+  position: absolute;
+  left: 5%;
+}
+#slider .owl-nav [class*='owl-']:hover {
+  background: none;
+  border: none;
+  color: #FFCDFC;
+  text-decoration: none;
+}
